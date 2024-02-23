@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warmindo Onokui</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="/asset/warmindo.jpeg" alt="Logo">
+      <h1>Warmindo Onokui</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="beranda.html">Beranda</a></li>
+        <li><a href="index.html">Menu</a></li>
+        <li><a href="pesanan.html">pesanan</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>Warmindo Onokui</title>
+</head>
+<body>
+  <main>
+    <section class="order">
+      <!-- Formulir pemesanan akan ditampilkan di sini ketika tombol "Pesan Sekarang" diklik -->
+      <form class="order-form" id="orderForm">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name">
+        <label for="table">Nomor Meja:</label>
+        <input type="number" id="table" name="table">
+        <label for="menu">Nama Menu:</label>
+        <input type="text" id="menu" name="menu" value="Mie Goreng" readonly>
+        <label for="menu">Harga:</label>
+        <input type="text" id="menu" name="menu" value="Rp. 7.000" readonly>
+        <label for="jumlah">Jumlah:</label>
+        <input type="number" id="jumlah" name="jumlah">
+        <label for="Catatan">Catatan:</label>
+        <input type="text" id="catatan" name="catatan" value="Pedas/Tidak Pedas">
+        <button type="button" onclick="location.href='pesanan makanan.html'">Pesan Sekarang</button>
+    </form>
+    </section>
+  </main>
+  </body>
